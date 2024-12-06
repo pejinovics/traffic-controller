@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SemaphoreRenderer.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="StreetRenderer.cpp" />
+    <ClCompile Include="TextRenderer.cpp" />
+    <ClCompile Include="Segment.cpp" />
+    <ClCompile Include="RenderSegment.cpp" />
+    <ClCompile Include="CityImageRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="semaphore_arrow.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="semaphore.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\street.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="name.png">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="semaphore.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="street.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="street.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="semaphore.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="text.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="text.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="segment.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="segment.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="cityImage.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="cityImage.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="StreetRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SemaphoreRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSegment.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CityImageRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{e27ec7d6-5d89-4b5b-a96a-b4cf24dd0e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{b392bc71-6fa2-4bde-8921-9695cd192405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{c53150ec-9fd2-4529-b6e3-44c30c415df9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
