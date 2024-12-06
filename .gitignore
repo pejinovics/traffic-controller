@@ -1,0 +1,21 @@
+Build and intermediate files
+Debug/
+Release/
+*.obj
+*.exe
+*.ilk
+*.pch
+*.pdb
+*.idb
+*.log
+
+Visual Studio settings
+.vs/
+*.VC.db
+*.VC.opendb
+ipch/
+*.sdf
+
+Temporary files
+*.tlog
+*.lastbuildstate
